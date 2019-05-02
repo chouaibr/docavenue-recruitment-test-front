@@ -1,0 +1,6 @@
+<h2>Posts</h2>
+<ul class="heroes">
+  <li *ngFor="let post of posts">
+    <span class="badge">{{post.userId}}</span> {{post.id}} <br/> {{post.title}} <br/>  {{post.body}}
+  </li>
+</ul>
