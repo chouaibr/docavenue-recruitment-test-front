@@ -5,7 +5,9 @@ import { Post } from './Post';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'
+  , './bootstrap/dist/css/bootstrap.min.css'
+  , './bootstrap/dist/css/bootstrap-theme.min.css' ]
 })
 export class AppComponent implements OnInit {
     ngOnInit(): void {
